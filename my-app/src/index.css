@@ -1,0 +1,103 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  .checker {
+    height: 40px;
+    width: 40px;
+  }
+  .canGo {
+    background:black;
+    border:  1px solid #999;
+    float: none;
+    outline:0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .choseSquare {
+    background:black;
+    border: 2px double red;
+    float: none;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 48px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 48px;
+  }
+  .squareBlack {
+    background:black;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    float: none;
+    outline:0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+  }
+  .squareWhite {
+    background: #fff;
+    box-sizing: border-box; 
+    border: 1px solid #999;
+    float: none;
+    font-size: 24px;
+    outline:0;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+  }
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
